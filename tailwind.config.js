@@ -24,7 +24,7 @@ module.exports = {
         xl: '1280px',
       },
       fontFamily: {
-      bodyFont: ['Monteserrat' ],
+      bodyFont: ['Braah One' , 'sans-serif' ],
       titleFont: ['Castoro Titling'],
       },
       boxShadow: {
