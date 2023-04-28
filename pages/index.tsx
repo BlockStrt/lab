@@ -10,7 +10,7 @@ export default function Home() {
       className={`flex bg-gray-300 min-h-screen flex-col items-center justify-between ${inter.className}`}
     >
 
-        <div className='w-full'><Navbar/></div>
+        <div className='w-full fixed'><Navbar/></div>
      
     </main>
   )
