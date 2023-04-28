@@ -22,10 +22,10 @@ function handleClick(e:any){
     }
   }
   return (
-    <section className='w-full h-20 max-w-container  lg:h-[12vh] sticky top-0 z-50 bg-gray-500 flex px-4 shadow-navbarShadow justify-between items-center'>
+    <section className='w-full h-20  lg:h-[12vh] sticky top-0 z-50 bg-gray-500 flex px-4 shadow-navbarShadow justify-between items-center'>
         {/* <div> image</div> */}
         <h1 className=''> Quincy Brown </h1>
-        <div className='hidden md:inline-flex items-center gap-7'>
+        <div className='hidden max-w-container md:inline-flex items-center gap-7'>
         <ul className='flex text-[13px] gap-7'>
                     <Link 
                      onClick={handleScroll}
