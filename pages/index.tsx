@@ -9,8 +9,7 @@ export default function Home() {
     <main
       className={'bg-gray-300 h-screen w-full items-center overflow-x-hidden overflow-y-hidden scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60'}
     >
-
-        <div className='w-full fixed'><Navbar/></div>
+      <Navbar/>
      
     </main>
   )
