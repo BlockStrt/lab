@@ -109,7 +109,7 @@ function handleClick(e:any){
                     onClick={()=> setShowMenu(false)}
                     className='text-3xl text-textGreen cursor-pointer
                     hover:text-red-500 absolute top-4 right-4'/>
-                            <div className='flex flec-col items-center gap-7'>
+                            <div className='flex flex-col items-center gap-7'>
                                 <ul className='flex flex-col py-24 text-base gap-10'>
                                             <Link 
                                             onClick={handleScroll}
