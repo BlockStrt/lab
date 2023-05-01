@@ -24,7 +24,7 @@ function handleClick(e:any){
     }
   }
   return (
-    <section className='w-full h-20  lg:h-[12vh] sticky top-0 z-50 bg-black flex px-4 shadow-navbarShadow justify-between items-center'>
+    <section className='w-full h-20 lg:h-[12vh] fixed bottom-0 z-50 bg-black flex px-4 shadow-navbarShadow justify-between items-center'>
         {/* <div> image</div> */}
         <h1 className=' font-titleFont'> Quincy Brown </h1>
         <div className='hidden max-w-container md:inline-flex items-center gap-7'>
@@ -51,7 +51,7 @@ function handleClick(e:any){
                     initial={{y: -10, opacity: 0}}
                     animate={{y: 0, opacity: 1}}
                     transition={{duration: 2.3, delay: 0.4}}>
-                    <span className='text-textGreen'>01.</span> About
+                    <span className='text-textGreen'>01.</span> Archive
                     </motion.li>
                     </Link>
 
@@ -64,33 +64,22 @@ function handleClick(e:any){
                     initial={{y: -10, opacity: 0}}
                     animate={{y: 0, opacity: 1}}
                     transition={{duration: 2.3, delay: 0.4}}>
-                    <span className='text-textGreen'>03.</span> Photography
+                    <span className='text-textGreen'>03.</span> Information
                     </motion.li>
                     </Link>
 
-                    <Link 
-                    onClick={handleScroll}
-                    href='#contact' 
-                    className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
-                    cursor-pointer duration-300 nav-link'>
-                    <motion.li 
-                    initial={{y: -10, opacity: 0}}
-                    animate={{y: 0, opacity: 1}}
-                    transition={{duration: 2.3, delay: 0.4}}>
-                    <span className='text-textGreen'>04.</span> Contact
-                    </motion.li>
-                    </Link>
+            
 
                 </ul>
         </div>
         {/* small icon section */}
         <div onClick={()=> setShowMenu(true)} className='w-6 h-5 flex flex-col justify-between items-center md:hidden
             text-4xl text-black cursor-pointer overflow-hidden group'>
-                <span className='w-full h-[2px] bg-black inline-flex transform group-hover:translate-x-2 transition-all
+                <span className='w-full h-[2px] bg-white inline-flex transform group-hover:translate-x-2 transition-all
                 ease-in-out duration-300' ></span>
-                <span className='w-full h-[2px] bg-black inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all
+                <span className='w-full h-[2px] bg-white inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all
                 ease-in-out duration-300' ></span>
-                <span className='w-full h-[2px] bg-black inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all
+                <span className='w-full h-[2px] bg-white inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all
                 ease-in-out duration-300' ></span>
             </div>
         {
@@ -135,7 +124,7 @@ function handleClick(e:any){
                                             initial={{y: -10, opacity: 0}}
                                             animate={{y: 0, opacity: 1}}
                                             transition={{duration: 2.3, delay: 0.4}}>
-                                            <span className='text-textGreen'>01.</span> About
+                                            <span className='text-textGreen'>01.</span> Archive
                                             </motion.li>
                                             </Link>
 
@@ -148,22 +137,11 @@ function handleClick(e:any){
                                             initial={{y: -10, opacity: 0}}
                                             animate={{y: 0, opacity: 1}}
                                             transition={{duration: 2.3, delay: 0.4}}>
-                                            <span className='text-textGreen'>03.</span> Photography
+                                            <span className='text-textGreen'>03.</span> Information
                                             </motion.li>
                                             </Link>
 
-                                            <Link 
-                                            onClick={handleScroll}
-                                            href='#contact' 
-                                            className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
-                                            cursor-pointer duration-300 nav-link'>
-                                            <motion.li 
-                                            initial={{y: -10, opacity: 0}}
-                                            animate={{y: 0, opacity: 1}}
-                                            transition={{duration: 2.3, delay: 0.4}}>
-                                            <span className='text-textGreen'>04.</span> Contact
-                                            </motion.li>
-                                            </Link>
+                                        
 
                                         </ul>
                                 </div>
