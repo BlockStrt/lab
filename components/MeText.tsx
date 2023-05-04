@@ -62,7 +62,7 @@ interface ParallaxProps {
    * dynamically generated number of children.
    */
   return (
-    <div className="parallax py-24 mdl:py-0 justify-center items-center h-full ">
+    <div className="parallax mdl:py-0 justify-center items-center h-full ">
       <motion.div className="scroller" style={{ x }}>
         <span>{children} </span>
         <span>{children} </span>
@@ -75,7 +75,7 @@ interface ParallaxProps {
 
 export default function MeText() {
   return (
-    <section className=' mdl:justify-center items-center'>
+    <section className='pt-47 mdl:justify-center items-center relative'>
         <ParallaxText baseVelocity={-5}>Quincy Brown</ParallaxText>
       <ParallaxText baseVelocity={5}>Director & Photographer</ParallaxText>
     </section>

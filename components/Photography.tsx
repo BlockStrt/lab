@@ -13,11 +13,11 @@ const Photography = () => {
     const p4 = 'https://cdn.sanity.io/images/7ezulpzq/production/2a446e8bb6b78b0c0678d90d00939fdad59e2d64-2000x2000.jpg'
 
     return (
-        <section>
-        <div className='p-10'>
-            <div className=' '>
+        <section className=' w-screen'>
+        <div className='p-10 justify-center items-center'>
+            <div className='w-full'>
             <Swiper
-                spaceBetween={10}
+                spaceBetween={50}
                 slidesPerView={2}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}>
@@ -29,9 +29,11 @@ const Photography = () => {
             </SwiperSlide>
             <SwiperSlide>
             <Image src={p3} width={600} height={600} alt='#'/>
+             
             </SwiperSlide>
             <SwiperSlide>
             <Image src={p4} width={600} height={600} alt='#'/>
+            
             </SwiperSlide>
             ...
             </Swiper>
@@ -40,5 +42,6 @@ const Photography = () => {
     </section>
   )
 }
+
 
 export default Photography

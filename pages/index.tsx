@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main
-      className={' overflow-x-hidden'}
+      className={'w-full h-screen overflow-x-hidden'}
     >
       <Navbar/>
       <div id='home' className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
@@ -22,12 +22,19 @@ export default function Home() {
         <MeText/>
        
       </div>
-      <div id='photography' className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
+      <div className='flex justify-between items-center gap-2 px-10'>
+          <div className='w-[10%] border h-0 border-white justify-center'></div>
+          <div className=''></div>
+          <div className='w-[10%] border h-0 border-white items-center'></div>
+      </div>
+
+
+      <div id='photography' className='flex justify-centers items-center'>
         {/* me section */}
         <Photography/>
        
       </div>
-      <div id='about' className='w-full  xl:flex items-center gap-20 justify-between'>
+      <div id='about' className=''>
         {/* about section */}
         <About/>
         
