@@ -14,7 +14,7 @@ const About = () => {
           <div className='w-full flex justify-center p-10'>
                <div className='w-full justify-center items-center '>
                 <div className='w-full flex justify-center items-center'>
-                <Image src={avatar} width={200} height={200} className='rounded-full'/>
+                <Image src={avatar} width={200} height={200} alt='#' className='rounded-full'/>
                 </div>
                 <h1 className='text-center p-1 font-bold text-4xl'>Carlos Boozer</h1>
                 <h2 className='text-center p-1'>Photographer</h2>
