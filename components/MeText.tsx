@@ -75,7 +75,7 @@ interface ParallaxProps {
 
 export default function MeText() {
   return (
-    <section className='pt-47 mdl:justify-center items-center relative'>
+    <section className=' mdl:pt-47 mdl:justify-center items-center relative'>
         <ParallaxText baseVelocity={-5}>Quincy Brown</ParallaxText>
       <ParallaxText baseVelocity={5}>Director & Photographer</ParallaxText>
     </section>
