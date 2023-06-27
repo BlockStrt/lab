@@ -32,6 +32,8 @@ yarn-error.log*
 
 #sanity
 .sanity
+sanity.config.ts
+sanity.cli.ts
 
 # typescript
 *.tsbuildinfo
