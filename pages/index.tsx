@@ -29,10 +29,20 @@ export default function Home() {
       </div>
 
 
-      <div id='photography' className='flex justify-centers items-center'>
+      <div id='archive' className='flex justify-centers items-center'>
         {/* me section */}
         <Photography/>
        
+      </div>
+      <div className='flex justify-between items-center gap-2 px-10'>
+          <div className='w-[10%] border h-0 border-white justify-center'></div>
+          <div className=''></div>
+          <div className='w-[10%] border h-0 border-white items-center'></div>
+      </div>
+      <div className='flex justify-between items-center gap-2 px-10'>
+          <div className='w-[10%] border h-0 border-white justify-center rotate-90'></div>
+          <div className=''></div>
+          <div className='w-[10%] border h-0 border-white items-center rotate-90'></div>
       </div>
       <div id='about' className=''>
         {/* about section */}

@@ -44,7 +44,7 @@ function handleClick(e:any){
 
                     <Link 
                     onClick={handleScroll}
-                    href='#about' 
+                    href='#archive' 
                     className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
                     cursor-pointer duration-300 nav-link'>
                     <motion.li 
@@ -57,7 +57,7 @@ function handleClick(e:any){
 
                     <Link 
                     onClick={handleScroll}
-                    href='#projects' 
+                    href='#about' 
                     className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen
                     cursor-pointer duration-300 nav-link'>
                     <motion.li 

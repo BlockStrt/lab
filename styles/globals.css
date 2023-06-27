@@ -134,6 +134,11 @@ progress {
   margin-right: 30px;
 }
 
+.box {
+  width: 100px;
+  height: 100px;
+  background: var(--yellow);
+}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;

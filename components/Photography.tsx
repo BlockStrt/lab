@@ -13,7 +13,7 @@ const Photography = () => {
     const p4 = 'https://cdn.sanity.io/images/7ezulpzq/production/2a446e8bb6b78b0c0678d90d00939fdad59e2d64-2000x2000.jpg'
 
     return (
-        <section className=' w-screen'>
+        <section className=' w-screen pb-10'>
         <div className='p-10 justify-center items-center'>
             <div className='w-full'>
             <Swiper
