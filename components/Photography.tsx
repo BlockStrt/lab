@@ -14,11 +14,13 @@ const Photography = () => {
 
     return (
         <section className=' w-screen h-screen pb-10'>
-        <div className='p-10 justify-center items-center'>
-            <div className='w-full h-full'>
+        <div className='p-10 justify-center items-center mx-auto'>
+        <div className='items-center mx-auto justify-center flex p-3'>swipe here</div>
+            <div className='w-full h-full flex justify-center mx-auto'>
+            
             <Swiper
                 spaceBetween={50}
-                slidesPerView={2}
+                slidesPerView={1}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}>
             <SwiperSlide>
@@ -33,7 +35,7 @@ const Photography = () => {
             </SwiperSlide>
             <SwiperSlide>
             <Image src={p4} width={900} height={900} alt='#'/>
-            
+
             </SwiperSlide>
             
             </Swiper>
