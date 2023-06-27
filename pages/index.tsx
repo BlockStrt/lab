@@ -17,7 +17,7 @@ export default function Home() {
       className={'w-full h-screen overflow-x-hidden'}
     >
       <Navbar/>
-      <div id='home' className='w-full flex justify-center h-screen my-auto mdl:py-0  xl:flex items-center gap-20 '>
+      <div id='home' className='w-full overflow-hidden flex justify-center h-screen my-auto mdl:py-0 xl:flex items-center gap-20 '>
         {/* me section */}
         <MeText/>
        
@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
 
-      <div id='archive' className='flex justify-centers items-center'>
+      <div id='archive' className='flex justify-centers items-center overflow-hidden'>
         {/* me section */}
         <Photography/>
        
@@ -44,7 +44,7 @@ export default function Home() {
           <div className=''></div>
           <div className='w-[10%] border h-0 border-white items-center rotate-90'></div>
       </div>
-      <div id='about' className=''>
+      <div id='about' className='h-screen'>
         {/* about section */}
         <About/>
         
