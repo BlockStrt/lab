@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
 
-      <div id='archive' className='flex justify-centers items-center overflow-hidden'>
+      <div id='archive' className='flex h-screen justify-centers items-center overflow-hidden'>
         {/* me section */}
         <Photography/>
        
