@@ -14,10 +14,10 @@ export default function Home() {
 
   return (
     <main
-      className={'w-full h-screen overflow-x-hidden mx-auto '}
+      className={'w-full h-screen mx-auto '}
     >
       <Navbar/>
-      <div id='home' className='w-full mx-auto overflow-hidden flex justify-center h-screen my-auto mdl:py-0 xl:flex items-center gap-20 '>
+      <div id='home' className='w-full mx-auto flex justify-center h-screen my-auto mdl:py-0 xl:flex items-center gap-20 '>
         {/* me section */}
         <MeText/>
        
