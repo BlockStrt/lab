@@ -24,7 +24,7 @@ function handleClick(e:any){
     }
   }
   return (
-    <section className='w-full h-20 lg:h-[12vh] fixed bottom-0 z-50 bg-black flex px-4 shadow-navbarShadow justify-between items-center'>
+    <section className='w-full lg:h-[12vh] fixed bottom-0 z-50 bg-black flex px-4 shadow-navbarShadow justify-between items-center'>
         {/* <div> image</div> */}
         <h1 className=' font-titleFont'> Quincy Brown </h1>
         <div className='hidden max-w-container md:inline-flex items-center gap-7'>
@@ -87,7 +87,7 @@ function handleClick(e:any){
                 <div
                 ref={(node) => (ref.current = node)}
                 onClick={handleClick}
-                className='absolute  mdl:hidden right-0 w-full h-screen bg-black
+                className='absolute mdl:hidden bottom-0 right-0 w-full h-screen bg-black
                 bg-opacity-50 flex flex-col items-end' >
                     <motion.div
                   initial={{y:-20,  opacity: 0}}
