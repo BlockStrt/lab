@@ -93,8 +93,8 @@ function handleClick(e:any){
                   initial={{y:-20,  opacity: 0}}
                   animate={{y:0, opacity:1}}
                   transition={{duration:1.1}}
-                  className='w-[80%] h-screen top-0 overflow-y-scroll scrollbarHide bg-[#dddcdc]
-                  flex flex-col items-center px-4 py-10 relative '
+                  className='w-[80%] top-0 overflow-y-scroll scrollbarHide bg-[#dddcdc]
+                  flex flex-col items-center px-4 relative '
                   >
                     <MdOutlineClose 
                     onClick={()=> setShowMenu(false)}
