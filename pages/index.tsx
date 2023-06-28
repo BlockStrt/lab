@@ -44,7 +44,7 @@ export default function Home() {
           <div className=''></div>
           <div className='w-[10%] border h-0 border-white items-center rotate-90'></div>
       </div>
-      <div id='about' className='h-screen'>
+      <div id='about' className='h-screen overflow-hidden'>
         {/* about section */}
         <About/>
         

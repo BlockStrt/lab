@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section className='h-[88vh] w-full justify-center flex'>
         <div className='w-full '>
-          <div className='w-full flex justify-center p-10'>
+          <div className='w-full flex justify-center p-5'>
                <div className='w-full justify-center items-center '>
                 <div className='w-full flex justify-center items-center'>
                 <Image src={avatar} width={200} height={200} alt='#' className='rounded-full'/>
@@ -36,7 +36,7 @@ const About = () => {
                  </a>
                 
                 </div>
-                <p className='text-center p-20 break-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu sagittis elit. Curabitur nisl sem, sodales vel rutrum ac, accumsan ultricies quam. Proin in erat egestas ex accumsan auctor id sed mauris. Curabitur imperdiet massa neque, et ultricies mi ornare sit amet. Quisque porttitor lorem tempus tristique iaculis. Morbi justo odio, hendrerit vel volutpat at, tempus ut neque. In condimentum justo in ex maximus, vel scelerisque erat consequat. Sed varius erat augue, in consectetur lectus aliquam vitae. Sed egestas erat ut enim convallis, eget condimentum ex commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p className='text-center p-10 break-normal text-sm top-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu sagittis elit. Curabitur nisl sem, sodales vel rutrum ac, accumsan ultricies quam. Proin in erat egestas ex accumsan auctor id sed mauris. Curabitur imperdiet massa neque, et ultricies mi ornare sit amet. Quisque porttitor lorem tempus tristique iaculis. Morbi justo odio, hendrerit vel volutpat at, tempus ut neque. In condimentum justo in ex maximus, vel scelerisque erat consequat. Sed varius erat augue, in consectetur lectus aliquam vitae. Sed egestas erat ut enim convallis, eget condimentum ex commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 
                </div>
                <div>
