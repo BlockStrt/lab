@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import Link from 'next/link'
 import {motion} from 'framer-motion'
-import { Plaster } from 'next/font/google'
+
 import {MdOutlineClose} from 'react-icons/md'
 
 
@@ -87,14 +87,14 @@ function handleClick(e:any){
                 <div
                 ref={(node) => (ref.current = node)}
                 onClick={handleClick}
-                className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black
+                className='absolute  mdl:hidden right-0 w-full h-screen bg-black
                 bg-opacity-50 flex flex-col items-end' >
                     <motion.div
                   initial={{y:-20,  opacity: 0}}
                   animate={{y:0, opacity:1}}
                   transition={{duration:1.1}}
-                  className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#dddcdc]
-                  flex flex-col items-center px-4 py-10 relative'
+                  className='w-[80%] h-screen top-0 overflow-y-scroll scrollbarHide bg-[#dddcdc]
+                  flex flex-col items-center px-4 py-10 relative '
                   >
                     <MdOutlineClose 
                     onClick={()=> setShowMenu(false)}

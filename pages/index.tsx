@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main
-      className={'w-full h-screen overflow-x-hidden'}
+      className={'w-full h-screen overflow-x-hidden '}
     >
       <Navbar/>
       <div id='home' className='w-full overflow-hidden flex justify-center h-screen my-auto mdl:py-0 xl:flex items-center gap-20 '>
