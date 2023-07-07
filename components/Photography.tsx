@@ -28,7 +28,7 @@ const Photography = () => {
                     clickable: true,
                   }}
                   modules={[Pagination]}
-                >
+                className='swipe-container w-auto h-auto'>
             <SwiperSlide className=''>
                 <Image src={p1} width={500} height={500} alt='#'/>
             </SwiperSlide>
@@ -37,7 +37,6 @@ const Photography = () => {
             </SwiperSlide>
             <SwiperSlide>
             <Image src={p3} width={500} height={500} alt='#'/>
-             
             </SwiperSlide>
             <SwiperSlide>
             <Image src={p4} width={600} height={600} alt='#'/>

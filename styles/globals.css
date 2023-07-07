@@ -165,3 +165,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+swipe-container{
+  width: auto; 
+  height: auto;
+}
