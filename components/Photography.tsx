@@ -17,7 +17,7 @@ const Photography = () => {
         <section className='  pb-10 justify-center items-center mx-auto '>
         <div className=' pb-10 mb-10 justify-center items-center mx-auto'>
         <div className='items-center mx-auto justify-center flex p-3'>swipe here</div>
-            <div className='flex mx-auto w-screen items-center '>
+            <div className='flex mx-auto w-screen items-center'>
             <Swiper
                 spaceBetween={50}
                 centeredSlides={true}
@@ -28,18 +28,18 @@ const Photography = () => {
                     clickable: true,
                   }}
                   modules={[Pagination]}
-                className='swipe-container w-auto h-auto'>
+                className='swipe-container h-screen w-full'>
             <SwiperSlide className=''>
-                <Image src={p1} width={500} height={500} alt='#'/>
+                <Image src={p1} width={900} height={900} alt='#' id='images'/>
             </SwiperSlide>
             <SwiperSlide>
-            <Image src={p2} width={500} height={500} alt='#'/>
+            <Image src={p2} width={900} height={900} alt='#' id='images'/>
             </SwiperSlide>
             <SwiperSlide>
-            <Image src={p3} width={500} height={500} alt='#'/>
+            <Image src={p3} width={900} height={900} alt='#' id='images'/>
             </SwiperSlide>
             <SwiperSlide>
-            <Image src={p4} width={600} height={600} alt='#'/>
+            <Image src={p4} width={900} height={900} alt='#' id='images'/>
 
             </SwiperSlide>
             
