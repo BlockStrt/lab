@@ -28,7 +28,7 @@ const Photography = () => {
                     clickable: true,
                   }}
                   modules={[Pagination]}
-                className='swipe-container h-screen w-full'>
+                className='swipe-container h-screen w-full mb-10'>
             <SwiperSlide className=''>
                 <Image src={p1} width={900} height={900} alt='#' id='images'/>
             </SwiperSlide>
